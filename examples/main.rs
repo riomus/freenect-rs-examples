@@ -1,3 +1,4 @@
+#[macro_use(freenect_set_log_callback, freenect_set_depth_callback)]
 extern crate freenect;
 extern crate libc;
 extern crate piston_window;
